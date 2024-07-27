@@ -4,7 +4,6 @@ import yt_dlp as youtube_dl
 import os
 import asyncio
 import nest_asyncio
-from webserver import keep_alive  # Import the keep_alive function
 
 nest_asyncio.apply()
 
@@ -170,8 +169,6 @@ async def show_queue(interaction: discord.Interaction):
 
 # Run the bot with the token
 TOKEN = os.getenv('DISCORD_BOT_TOKEN')
-
-keep_alive()  # Start the web server to keep the bot alive
 
 async def main():
     async with bot:
