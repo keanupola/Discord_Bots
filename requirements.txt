@@ -1,0 +1,6 @@
+discord.py
+yt-dlp
+PyNaCl
+nest_asyncio
+flask
+ffmpeg
