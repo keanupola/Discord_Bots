@@ -174,9 +174,6 @@ async def main():
     async with bot:
         await bot.start(TOKEN)
 
-# Apply nest_asyncio to allow running the event loop within the notebook
-nest_asyncio.apply()
-
 # Run the bot
 if __name__ == "__main__":
     asyncio.run(main())
