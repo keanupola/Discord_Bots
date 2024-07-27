@@ -11,7 +11,7 @@ nest_asyncio.apply()
 intents = discord.Intents.default()
 intents.message_content = True
 intents.presences = True  # Enable the Presence Intent
-intents.members = True    # Enable the Members Intent
+intents.members = True  # Enable the Members Intent
 
 bot = commands.Bot(command_prefix="!", intents=intents)
 
